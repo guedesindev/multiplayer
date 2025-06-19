@@ -20,13 +20,13 @@ import {
 } from 'https://www.gstatic.com/firebasejs/11.7.1/firebase-database.js'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDWhXt_MzTDCocmAK7dzKQ9eVQEkhe5byA',
-  authDomain: 'jogosmultiplayer-e1a31.firebaseapp.com',
+  apiKey: '**********',
+  authDomain: '*******',
   projectId: 'jogosmultiplayer-e1a31',
   storageBucket: 'jogosmultiplayer-e1a31.firebasestorage.app',
-  messagingSenderId: '949154802628',
-  appId: '1:949154802628:web:2af70b1ff6aeb519d11291',
-  measurementId: 'G-PQ35TNDWQD'
+  messagingSenderId: '*******',
+  appId: '*********',
+  measurementId: '*******'
 }
 
 // Initialize Firebase
