@@ -1,0 +1,5 @@
+import './js/index.js'
+import './js/backend.js'
+import './js/forca.js'
+import './js/jokenpo.js'
+import './js/tictactoe.js'

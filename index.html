@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title id="title">MultiPlayer</title>
+</head>
+
+<body>
+  <form class="forca-form" id="form" action="forca">
+    <div class="form-item">
+      <fieldset id="form-games-name" class="font-play-regular">
+        <legend>Selecione o jogo</legend>
+        <div class="div-radio">
+          <input type="radio" value="forca" name="jogo" id="radio-forca">
+          <label for="radio-forca"><img src="./utils/images/forca-0.jpg" class="radio-img" /></label>
+        </div>
+
+        <div class="div-radio">
+          <input type="radio" value="jokenpo" name="jogo" id="radio-jokenpo">
+          <label for="radio-jokenpo"><img src="./utils/images/Jo-Ken-Po.jpg" class="radio-img" /></label>
+        </div>
+
+        <div class="div-radio">
+          <input type="radio" value="tictactoe" name="jogo" id="radio-tictactoe">
+          <label for="radio-tictactoe"><img src="./utils/images/tictactoe.png" class="radio-img" /></label>
+        </div>
+
+      </fieldset>
+    </div>
+    <div id="form-inputs">
+      <div class="form-item" id="trd-form-item">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="user name" />
+      </div>
+
+      <input disabled type="button" id="button-login" value="Jogar">
+    </div>
+  </form>
+
+  <div class="hide modal-container font-play-regular" id="modal-container">
+    <div class="close" id="close_modal">X</div>
+  </div>
+  <footer>&copy <a href="#">devGuedes - 2025</a></footer>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
